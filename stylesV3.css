@@ -1,0 +1,285 @@
+﻿body {
+    background-color: snow;
+}
+
+#body #searchBoxVal {
+    font-family: times;
+    font-size: 20px;
+    width: 50%;
+    padding: 5px;
+    margin: 5px 0 20px 0;
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+#body #createBtn {
+    position: absolute;
+    left: 70%;
+    top: 1%;
+    font-family: times;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px 0 20px 0;
+    background: #00bfff;
+    border-radius: 10px;
+}
+
+#body #mySelect {
+    font-family: times;
+    font-size: 15px;
+    padding: 5px;
+    margin: 5px 0 20px 0;
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+#table h2 {
+    font-family: times;
+    margin-left: 40%;
+}
+
+#body h2 {
+    font-family: times;
+    margin-left: 40%;
+}
+
+
+
+#body #table table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: times;
+    width: 100%;
+}
+
+th {
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+th, td {
+    text-align: center;
+    padding: 5px;
+    border: 1px solid white;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+td img {
+    height: 200px;
+    width: 200px;
+}
+
+.updateBtn {
+    background: #00bfff;
+    padding: 5px;
+    font-family: times;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.deleteBtn {
+    background: #fa3838;
+    padding: 5px;
+    font-family: times;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+#addForm {
+    color: black;
+    font-family: times;
+    width: 100%;
+    margin-left: 20%;
+    margin-bottom: 2px;
+}
+
+    #addForm input[name=placeName] {
+        font-family: times;
+        font-size: 20px;
+        margin-left: 20px;
+        border-radius: 5px;
+        padding: 5px;
+        height: 35px;
+        width: 50%;
+    }
+
+    #addForm input[name=placeAddress] {
+        font-family: times;
+        font-size: 20px;
+        margin-left: 11px;
+        border-radius: 5px;
+        padding: 5px;
+        height: 35px;
+        width: 50%;
+    }
+
+    #addForm input[name=placeRating] {
+        font-family: times;
+        font-size: 20px;
+        margin-left: 20px;
+        border-radius: 5px;
+        padding: 5px;
+        height: 35px;
+        width: 50%;
+    }
+
+    #addForm select[name=CountryId] {
+        font-family: times;
+        font-size: 20px;
+        margin-left: 18px;
+        border-radius: 5px;
+        padding: 5px;
+        height: 35px;
+        width: 50%;
+    }
+
+    #updateForm select[name=CountryId] {
+        font-family: times;
+        font-size: 20px;
+        margin-left: 18px;
+        border-radius: 5px;
+        padding: 5px;
+        height: 35px;
+        width: 50%;
+    }
+
+    #addForm input[name=placeImg] {
+        font-family: times;
+        font-size: 20px;
+        margin-left: 20px;
+        border-radius: 5px;
+        padding: 5px;
+        height: 35px;
+        width: 50%;
+        border: 1px red solid;
+    }
+    #addForm button[type=button] {
+        background: #33ff99;
+        padding: 5px;
+        font-family: times;
+        font-weight: bold;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        margin-right: 20px;
+        margin-left: 33%;
+        border-radius: 10px;
+        height: 60px;
+        width: 150px;
+    }
+
+    #addForm button[type=reset] {
+        background: #ffcc33;
+        padding: 5px;
+        font-family: times;
+        font-weight: bold;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        height: 60px;
+        width: 150px;
+    }
+
+    #addForm a {
+        position: relative;
+        left: 600px;
+        top: 50px;
+        font-family: times;
+        font-weight: bold;
+        color: #00bfff;
+    }
+
+#updateForm {
+    color: black;
+    font-family: times;
+    width: 100%;
+    margin-left: 20%;
+    margin-bottom: 2px;
+}
+
+    #updateForm input[name=placeName] {
+        font-family: times;
+        font-size: 20px;
+        margin-left: 20px;
+        border-radius: 5px;
+        padding: 5px;
+        height: 35px;
+        width: 50%;
+    }
+
+    #updateForm input[name=placeAddress] {
+        font-family: times;
+        font-size: 20px;
+        margin-left: 11px;
+        border-radius: 5px;
+        padding: 5px;
+        height: 35px;
+        width: 50%;
+    }
+
+    #updateForm input[name=placeRating] {
+        font-family: times;
+        font-size: 20px;
+        margin-left: 20px;
+        border-radius: 5px;
+        padding: 5px;
+        height: 35px;
+        width: 50%;
+    }
+
+    #updateForm input[name=placeType] {
+        font-family: times;
+        font-size: 20px;
+        margin-left: 32px;
+        border-radius: 5px;
+        padding: 5px;
+        height: 35px;
+        width: 50%;
+    }
+
+    #updateForm input[name=placeImg] {
+        font-family: times;
+        font-size: 20px;
+        margin-left: 20px;
+        border-radius: 5px;
+        padding: 5px;
+        height: 35px;
+        width: 50%;
+        border: 1px red solid;
+    }
+
+    #updateForm button {
+        background: #33ff99;
+        padding: 5px;
+        font-family: times;
+        font-weight: bold;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        margin-right: 20px;
+        margin-left: 45%;
+        border-radius: 10px;
+        height: 60px;
+        width: 150px;
+    }
+
+    #updateForm a {
+        position: relative;
+        left: 600px;
+        top: 50px;
+        font-family: times;
+        font-weight: bold;
+        color: #00bfff;
+    }
