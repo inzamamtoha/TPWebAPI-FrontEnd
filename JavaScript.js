@@ -2,6 +2,7 @@
 var tableOrder = "NONE";
 var searchKey = '';
 const uri = "https://localhost:44397/api/TouristPlace";
+//const uri = "//E:/Inzamam/EDW/Dev/TPWebAPI-FrontEnd/Index.html"
 
 $(document).ready(function () {
     $("#createBtn").click(addPlace);
